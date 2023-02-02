@@ -11,7 +11,7 @@ class DSFRButton extends Component {
   get html() {
     return `
       <style>
-        @import url('/dsfr.css');
+        @import url('./dsfr.css');
       </style>
       <button class="fr-btn"><slot></slot></button>
     `
