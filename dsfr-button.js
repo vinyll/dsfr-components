@@ -13,7 +13,7 @@ class DSFRButton extends Component {
       <style>
         @import url('/dsfr.css');
       </style>
-      <button class="fr-btn ${extraClasses.join(' ')}"><slot></slot></button>
+      <button class="fr-btn"><slot></slot></button>
     `
   }
 }
